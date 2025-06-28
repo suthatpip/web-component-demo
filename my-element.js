@@ -23,8 +23,11 @@ class MyElement extends LitElement {
   }
 
   render() {
-    return html`<p>Hello, ${this.name}!</p>`;
+    return html`<p>Hi, ${this.name}!</p>`;
   }
 }
 
 customElements.define("my-element", MyElement);
+
+// https://purge.jsdelivr.net/gh/suthatpip/web-component-demo@main/my-element.js
+// https://cdn.jsdelivr.net/gh/suthatpip/web-component-demo@main/my-element.js
