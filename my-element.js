@@ -23,7 +23,7 @@ class MyElement extends LitElement {
   }
 
   render() {
-    return html`<p>Hi, ${this.name}!</p>`;
+    return html`<p color="red">Hi, ${this.name}!</p>`;
   }
 }
 
