@@ -93,6 +93,7 @@ const ct=t=>(s,i)=>{void 0!==i?i.addInitializer(()=>{customElements.define(t,s)}
       list-style: none;
       margin: 0;
       padding: 8px;
+      color: #000;
     }
 
     .dropdown li {
