@@ -14,7 +14,7 @@ class MyElement extends LitElement {
   `;
 
   static properties = {
-    name: { type: String },
+    atoken: { type: String },
   };
 
   constructor() {
@@ -23,7 +23,7 @@ class MyElement extends LitElement {
   }
 
   render() {
-    return html`<p color="red">Hi, ${this.name}!</p>`;
+    return html`<p>Hi, ${this.atoken}!</p>`;
   }
 }
 
